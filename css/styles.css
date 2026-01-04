@@ -1,0 +1,32 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    font-family: Roboto;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 1px solid black;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+    border-radius: 4px;
+}
