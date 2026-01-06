@@ -1,25 +1,46 @@
 body {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     margin: 0;
     padding: 0;
+    font-family: Arial ;
 }
 
-.header {
+.header, .footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #1F2937;
     color: white;
-    font-family: Arial ;
-    padding-left: 20px;
-    padding-right: 20px;
+
+    padding: 8px;
 }
 
 .first-container {
     background: #1F2937;
     color: white;
     font-family: Arial ;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+.intro-left {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.intro-title {
+    font-weight: bold;
+}
+
+.intro-right {
+    background-color: darkgray;
 }
 
 ul {
@@ -35,6 +56,122 @@ li {
 
 img {
     border: 1px solid black;
-    box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+    /*box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);*/
     border-radius: 4px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px;
+    background: dodgerblue;
+    color: white;
+    width: 100px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#info-text {
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.card-img {
+    border: 2px dodgerblue solid;
+    border-radius: 10px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: lightgray;
+}
+
+.quote-box {
+    width: 500px;
+}
+
+#quote-text {
+    font-style: italic;
+}
+
+#author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.action-text {
+    justify-content: right;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.action-box {
+    background: blue;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    color: white;
+    flex-wrap: wrap;
+    height: auto;
+
+
+    background: #3b82f6;
+    color: white;
+
+    padding: 32px 48px;
+    border-radius: 10px;
+
+    width: 100%;
+    max-width: 900px;
+}
+
+#call {
+    font-weight: bold;
+}
+
+#action-button {
+    border-color: white;
+    background: transparent;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
